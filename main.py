@@ -120,7 +120,7 @@ def check_vpn_status():
 
 if __name__ == "__main__":
     # Provide the path to your .ovpn configuration file
-    config_path = "client ovpn file"
+    config_path = "Sample.ovpn"
     
     # Specify the path to the OpenVPN executable
     openvpn_path = "path to openvpn.exe"
