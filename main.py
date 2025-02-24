@@ -108,7 +108,7 @@ def check_vpn_status():
     print(f"🛜 VPN Local IP: {vpn_ip}")
     print(f"🌍 Public IP (should match VPN IP): {public_ip}")
 
-    if public_ip == "165.22.55.251":
+    if public_ip == "OpenVpnAs Ip Address":
         print("🎉 Successfully routed traffic through OpenVPN!")
         # Example usage
         location = get_public_ip_location(public_ip)
@@ -120,10 +120,10 @@ def check_vpn_status():
 
 if __name__ == "__main__":
     # Provide the path to your .ovpn configuration file
-    config_path = "C:\\Downloads\\VPNServer\\python-openvpn-client-master\\keyman-SG.ovpn"
+    config_path = "client ovpn file"
     
     # Specify the path to the OpenVPN executable
-    openvpn_path = "D:\\Program Files\\OpenVPN\\bin\\openvpn.exe"
+    openvpn_path = "path to openvpn.exe"
 
     # Connect to OpenVPN and verify routing
     connect_openvpn(config_path, openvpn_path)
